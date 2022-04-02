@@ -2,7 +2,7 @@ from PIL import Image, ImageOps
 import requests
 from io import BytesIO
 
-response = requests.get("https://raw.githubusercontent.com/crabbey/cool-s-treaty-rplace/main/alliance.png")
+response = requests.get("https://raw.githubusercontent.com/crabbey/cool-s-treaty-rplace/master/alliance.png")
 img = Image.open(BytesIO(response.content))
 img = img.resize((img.size[0] * 3, img.size[1] * 3), Image.NEAREST)
 
