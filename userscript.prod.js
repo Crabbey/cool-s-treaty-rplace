@@ -68,7 +68,6 @@ if (window.top !== window.self) {
       }
     }
   }
-  }
 
   function flashPixel(x, y) {
     var multiplier = 3
